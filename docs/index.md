@@ -7,22 +7,74 @@ order: 0
 {% include ddc-abbreviations.md %}
 
 ## Page contents
-{:.no_toc}
 
-- ToC
-{:toc}
 
 ## Summary
 
-[//]: # (TODO Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the Android app you propose to develop in this project.)
+### P.A.U.L.A. (Plan, Act, Uplift: Life Achieved) 
+
+Is a personalized, offline-first Android task manager, daily routine tracker, and encouraging lifestyle companion. Developed in loving memory of Paula Elizabeth
+Kleczka—who championed an organized living space, folded blankets, and caring for family—the application bridges structured productivity with uplifting personal connection. The app streamlines everyday responsibilities by combining customizable to-do lists and recurring habit checklists with an interactive 2D companion avatar that provides real voice encouragement. Users can organize daily household chores, manage family responsibilities, and track long-term habits while receiving audio affirmations and visual milestone rewards as items are completed.
 
 ## Intended users and user stories
 
-[//]: # (TODO Write a bullet list here, including at least 2 different types of intended users. Along with each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence &#40;no more than 2 sentences&#41;, in the voice of the intended user, stating a specific task that the user performs using the app, and the benefit that will be obtained. See rubric for required form.)
+- The Busy Household Manager 
+
+    An individual or parent managing multiple domestic responsibilities, cleaning
+    routines, and family to-dos who needs an organized, frictionless way to keep track of recurring chores.
+
+
+- The Routine & Habit Builder
+
+    A student or working professional striving to build structured daily habits (such 
+    as tidying up a workspace, studying, or morning routines) through positive reinforcement.
+
+
+- The Encouragement Seeker
+
+    A user who experiences task fatigue or executive dysfunction and benefits from warm auditory 
+    feedback, visual companion check-ins,and celebrated micro-wins rather than cold, corporate checklists.
 
 ## Functionality
 
-[//]: # (TODO List &#40;using a bullet list---or ordered list, if order is relevant&#41; the key functional aspects that will be provided by the app---i.e., tell us what the user will be able to do using the app. This should not simply be a re-statement of the [summary]&#40;#summary&#41;, but should instead provide a more specific articulation of the functionality and user experience. )
+
+
+- To-Do Lists & Daily Habits
+
+    Create, edit, and check off one-time tasks or repeating routines (like folding blankets or tidying a room). 
+Each item can have notes, due dates, priority stars, and category tags.
+
+
+- Paula's 2D Companion Avatar
+
+    A friendly illustrated character on the main screen that reacts to your day. She greets you when you open the app, 
+rests during quiet hours, and celebrates when you finish your chores.
+
+
+- Real Spoken Voice Encouragement
+
+    Plays short audio clips of Paula’s actual voice. You hear warm greetings, gentle task reminders, 
+and encouraging words when you clear your daily list or reach a milestone.
+
+
+- Simple Swipe Lists (RecyclerView)
+
+    Displays your tasks in clean, easy-to-read cards. You can swipe a task to check it off, 
+sort by urgency, or filter by categories like Household and Family.
+
+
+- Custom Settings & Quiet Hours
+
+    A straightforward settings menu to adjust volume, toggle between voice clips and gentle chimes,
+    turn on subtitles, and set nighttime "quiet hours" so alerts never disturb your rest.
+
+
+- 100% Offline Storage
+
+    Saves all tasks, habits, and streaks directly on your phone. The app never needs an internet 
+connection or cloud account,
+so your data stays private and loads instantly.
+
 
 ## Persistent data
 
@@ -35,3 +87,5 @@ order: 0
 ## Stretch goals and possible enhancements 
 
 [//]: # (TODO If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.)
+
+
