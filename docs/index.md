@@ -14,7 +14,7 @@ order: 0
 ### P.A.U.L.A. (Plan, Act, Uplift: Life Achieved) 
 
 Is a personalized, offline-first Android task manager, daily routine tracker, and encouraging lifestyle companion. Developed in loving memory of Paula Elizabeth
-Kleczka—who championed an organized living space, folded blankets, and caring for family—the application bridges structured productivity with uplifting personal connection. The app streamlines everyday responsibilities by combining customizable to-do lists and recurring habit checklists with an interactive 2D companion avatar that provides real voice encouragement. Users can organize daily household chores, manage family responsibilities, and track long-term habits while receiving audio affirmations and visual milestone rewards as items are completed.
+Kleczka—who championed an organized living space, folded blankets, and caring for family. The application bridges structured productivity with uplifting personal connection. The app streamlines everyday responsibilities by combining customizable to-do lists and recurring habit checklists with an interactive 2D companion avatar that provides real voice encouragement. Users can organize daily household chores, manage family responsibilities, and track long-term habits while receiving audio affirmations and visual milestone rewards as items are completed.
 
 ## Intended users and user stories
 
