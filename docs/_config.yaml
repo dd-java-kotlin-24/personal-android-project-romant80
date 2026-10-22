@@ -8,7 +8,7 @@ titles_from_headings:
 prev_next_navigation:
   - bottom
 
-# TODO Modify the contents below for the specific project. NOTE THE INDENTATION!
+
 
 title: "P.A.U.L.A. (Plan, Act, Uplift: Life Achieved)"
 description: "An encouraging daily organizer and habit tracker that guides your household 
@@ -16,7 +16,7 @@ description: "An encouraging daily organizer and habit tracker that guides your 
 version: "1.0.0"
 author:
   name: "Roman Tissera"
-  email: "myemail@student.cnm.edu"
+  email: "rtissera@student.cnm.edu"
 
   # Do not change the following line.
   copyright: true
