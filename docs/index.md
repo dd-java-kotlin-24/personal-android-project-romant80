@@ -78,14 +78,72 @@ so your data stays private and loads instantly.
 
 ## Persistent data
 
-[//]: # (TODO Using a bullet list, list what content will be maintained in server-side storage. This should include any information that users of your app would expect to be maintained &#40;i.e., without connection to a server&#41; across multiple sessions of use.)
+Because P.A.U.L.A. is an offline-first app, all data is
+stored locally on the device using Google Room and SQLite.
+No external server is required, ensuring instant access
+and complete privacy:
+
+* **Task Items:** Stores task titles, descriptions, due
+  dates, priority levels, category tags (e.g., Household,
+  Family), and completion status across sessions.
+* **Daily Routines & Habits:** Tracks recurring checklists
+  (such as making the bed and folding blankets), target
+  frequencies, and daily streak counts.
+* **Voice Prompt Mappings:** Saves trigger conditions,
+  audio clip references, and text transcripts for Paula's
+  voice affirmations.
+* **Photo Attachments:** Stores local file references and
+  timestamps for photos taken of tidy spaces and completed
+  projects.
+* **User Preferences:** Preserves quiet-hour windows, audio
+  volume levels, caption toggles, and notification
+  settings using Android preferences.
 
 ## Device/external services
 
-[//]: # (TODO If the client component will need to access special services of the client device &#40;e.g., sensors, contacts, messaging&#41;, list them here using a bullet list. Also, if the client component will need to access already-existing external services &#40;e.g., real-time weather data, Open Movie Database, Open Trivia Database&#41;, those should also be listed here.)
+### Client Device Services
+* **Audio Playback (`MediaPlayer` / `SoundPool`):** Plays
+  recorded audio clips of Paula's voice for greetings,
+  reminders, and celebration milestones.
+* **Device Camera (`Camera API`):** Allows users to snap
+  photos of clean spaces, family moments, or finished
+  chores to attach to tasks.
+* **Reminders & Alerts (`AlarmManager` & `NotificationManager`):**
+  Schedules daily routine reminders and respects quiet
+  hours.
+* **Tactile Feedback (`Vibrator API`):** Provides gentle
+  haptic vibrations when checking off tasks or completing
+  habits.
+
+### External Services
+* **YouTube Video Service:** Provides quick access to
+  helpful instructional video tutorials (such as blanket-folding
+  techniques, laundry tips, and kitchen tidying guides)
+  linked directly to relevant household tasks and routines.
 
 ## Stretch goals and possible enhancements 
 
-[//]: # (TODO If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.)
+1. **Custom Color Themes (Least Complex):**
+   Add quick theme toggles featuring Paula's favorite
+   colors—pink, purple, and black—for app accents and
+   cards.
+
+2. **Visual Streak Calendar & Heatmap (Moderate Complexity):**
+   A monthly calendar grid that highlights consistency
+   and habit streaks with visual color intensity.
+
+3. **In-App Voice Clip Import (Moderate Complexity):**
+   A simple tool inside settings allowing users to record
+   or import new audio clips directly onto the device.
+
+4. **Animated 2D Avatar Reactions (High Complexity):**
+   Upgrade the static avatar illustrations to smooth 2D
+   vector animations (such as waving arms or smiling)
+   when tasks are cleared.
+
+5. **Encrypted Local Backup & Restore (Most Complex):**
+   Allow users to export and import an encrypted backup
+   file of their tasks, streaks, and photos to phone
+   storage for safekeeping.
 
 

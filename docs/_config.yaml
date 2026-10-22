@@ -6,16 +6,17 @@ page_navigator:
 titles_from_headings:
   enabled: false
 prev_next_navigation:
-- bottom
+  - bottom
 
 # TODO Modify the contents below for the specific project. NOTE THE INDENTATION!
 
-title: "Personal Android Project"
-description: "Trust me, it'll be cool!"
+title: "P.A.U.L.A. (Plan, Act, Uplift: Life Achieved)"
+description: "An encouraging daily organizer and habit tracker that guides your household 
+             routines with an interactive avatar and real spoken voice affirmations."
 version: "1.0.0"
 author:
-  name: "DDC Student"
+  name: "Roman Tissera"
   email: "myemail@student.cnm.edu"
 
-# Do not change the following line.
+  # Do not change the following line.
   copyright: true
